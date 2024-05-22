@@ -1,0 +1,66 @@
+.bgSingleCard{
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: #0a1128c7;
+}
+.singleName{
+    color: white !important;
+    text-shadow: white 1px 1px 6px;
+    font-family: 'Star Wars', sans-serif;
+}
+.dataText{
+    color: white;
+}
+@keyframes flicker {
+    0% { opacity: 1; }
+    25% { opacity: 0.66; }
+    50% { opacity: 0.25; }
+    75% { opacity: 0.66; }
+    100% { opacity: 1; }
+}
+.like-single-btn{
+    height: 50px;
+    width: 50px;
+    background-color: #ff212e;
+    color: #000;
+    border: 2px solid #ff0011;
+    border-radius: 50px;
+    text-shadow: 0px 0px 10px #F00;
+    box-shadow: 0px 0px 10px #F00;
+}
+.like-single-btn:hover {
+    background-color: #ff212e;
+    border-color: #F00;
+}
+.like-single-btn:active {
+    background-color: #F00;
+    border-color: #F00;
+    animation: flicker 0.5s
+}
+.return-btn {
+    height: 50px;
+    width: 200px;
+    background-color: #a020f0;
+    color: #000;
+    border: 2px solid #9400d3;
+    border-radius: 50px;
+    text-shadow: 0px 0px 10px #8a2be2;
+    box-shadow: 0px 0px 10px #8a2be2; 
+}
+.return-btn:hover {
+    background-color: #a020f0;
+    border-color: #8a2be2;
+}
+.return-btn:active {
+    background-color: #8a2be2;
+    border-color: #8a2be2;
+    animation: flicker 0.5s;
+}
+.loading{
+    width: 300px;
+    height: 400px;
+}
+.fa-solid{
+    color: gold;
+    text-shadow: 0px 0px 10px rgb(248, 216, 36);
+}

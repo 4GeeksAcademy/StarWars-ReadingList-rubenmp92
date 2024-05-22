@@ -1,3 +1,78 @@
-/* 
-    General Styles
-*/
+body{
+    background-image: url('https://6640f507c06afef0f3214ce6--sparkly-nasturtium-15b4e1.netlify.app/SW%20Background.jpeg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color: #0A1128;
+}
+.navbar-brand{
+    font-family: 'Star Wars', sans-serif;
+    font-size: 2vw;
+    color: yellow;
+    text-shadow: yellow 1px 1px 6px;
+}
+.navbar-brand:hover{
+    color: red;
+    text-shadow: red 1px 1px 6px;
+    cursor: pointer;
+}
+@keyframes flicker {
+    0% { opacity: 1; }
+    25% { opacity: 0.66; }
+    50% { opacity: 0.25; }
+    75% { opacity: 0.66; }
+    100% { opacity: 1; }
+}
+.fav-btn{
+    background-color: #042b9b;
+    color: #FFF;
+    border: 2px solid #0000FF;
+    border-radius: 50px;
+    text-shadow: 0px 0px 10px #00F;
+    box-shadow: 0px 0px 10px #00F;
+}
+.fav-btn:hover {
+    background-color: #5c7ef8;
+    color: #000;
+    border-color: #00F;
+} 
+.fav-btn:active {
+    background-color: #00F;
+    color: #FFF;
+    border-color: #00A;
+    animation: flicker 0.5s
+}
+footer{
+    background-color: #0A1128;
+}
+.content{
+    padding-bottom: 4rem;
+}
+@media(max-width: 750px){
+    .navbar-brand{
+        font-size: 4vw;
+    }
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f53737;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+::-webkit-scrollbar-track:vertical {
+    background-color: #0A1128;
+}

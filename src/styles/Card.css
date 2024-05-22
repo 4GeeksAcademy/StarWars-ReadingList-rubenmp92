@@ -1,0 +1,62 @@
+.card-img-top{
+    width: 100%;
+}
+.card{
+    min-width: 255px;
+    max-width: 500px;
+    border-color: limegreen;
+}
+.card-body {
+    background-color: #0A1128; /* Azul oscuro */
+    color: white; /* Texto en blanco para resaltar sobre el fondo oscuro */
+}
+@keyframes flicker {
+    0% { opacity: 1; }
+    25% { opacity: 0.66; }
+    50% { opacity: 0.25; }
+    75% { opacity: 0.66; }
+    100% { opacity: 1; }
+}
+
+.more-btn{
+    background-color: lime;
+    color: #000;
+    border: 2px solid #00FF00;
+    border-radius: 50px;
+    text-shadow: 0px 0px 10px #0F0;
+    box-shadow: 0px 0px 10px #0F0;
+}
+.more-btn:hover {
+    background-color: rgb(109, 241, 109);
+    border-color: #0F0;
+}
+  
+.more-btn:active {
+    background-color: #0A0;
+    border-color: #0A0;
+    animation: flicker 0.5s
+}
+
+.like-btn{
+    margin-left: 0, auto;
+    background-color: #ff212e;
+    color: #000;
+    border: 2px solid #ff0011;
+    border-radius: 50px;
+    text-shadow: 0px 0px 10px #F00;
+    box-shadow: 0px 0px 10px #F00;
+}
+.like-btn:hover {
+    background-color: #ff212e;
+    border-color: #F00;
+}
+  
+.like-btn:active {
+    background-color: #F00;
+    border-color: #F00;
+    animation: flicker 0.5s
+}
+.fa-solid{
+    color: gold;
+    text-shadow: 0px 0px 10px rgb(248, 216, 36);
+}
